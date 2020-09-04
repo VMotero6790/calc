@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.quad{
+    width: 100px;
+	height: 100px;
+	margin: 0 auto;
+    background-color: #34495e;
+    color: #fff;
+    border-radius: 10px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.quad > div{
+    border: 6px solid #2c3e50;
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
